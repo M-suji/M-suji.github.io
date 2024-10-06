@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lan="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pesonal portfolio website</title>
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
@@ -23,142 +23,444 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <img src="image/suji logo3.png" alt="">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#project">PROJECT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>S</span>uji</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#project"><i class="fa fa-briefcase"></i>Project</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
-        </nav>
-        <div class="detel">
-            <h1>I'm <span>Suji M</span></h1>
-            <p>A Tech enthusiast pursuing a B.Tech in IT <br>with skills in Python, SQL, 
-                and Data Visualization.<br>I’m passionate about innovative solutions <br>and 
-                hands-on projects that make a real-world impact.</b></br></br></p>
-            <div class="social-icons">
-                <a href=" "><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/suji-m-8718772a8/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/M-suji"><i class="fa-brands fa-github"></i></a>
-                
-            </div>
-        <a href="https://drive.google.com/file/d/1QK4G0LXwgSti_52w8uobzRkyys9rzr3g/view?usp=drive_link">DOWNLOAD CV</a>
         </div>
-        <div class="images">
-            <img src="image/shape-r.png" class="shape">
-            <img src="image/sujipic.png" class="girl">
+        <!-- ----- home content start------- -->
+        <div class="main-content">
+            <!-- ----- home section start------- -->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="Hello">Hello,my name is <span class="name">Suji M</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Aspiring Engineer</span></h3>
+                            <p>A Tech enthusiast pursuing a B.Tech in IT <br>with skills in Python, SQL, and Data Visualization.<br>I’m passionate about innovative solutions <br>
+                            and hands-on projects that make a real-world impact.</p>
+                            <a href="#contact"class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="image/hero 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ----- home section end------- -->
+            <!-- ----- About section start------- -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm suji M an <span>Aspiring Engineer</span></h3>
+                                    <p>A Tech enthusiast pursuing a B.Tech in IT with skills in Python, SQL, and Data Visualization.I’m passionate about innovative solutions 
+                                        and hands-on projects that make a real-world impact.</p>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday :  <span>26 oct 2003</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age :  <span>21</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email :  <span>sujiblessy0604@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree :  <span>B.tech Information Technology</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone :  <span>+91 7306134047</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City :  <span>Munnar,kerala</span></p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="buttons padd-15">
+                                                <a href="https://drive.google.com/file/d/1QK4G0LXwgSti_52w8uobzRkyys9rzr3g/view?usp=drive_link" class="btn">Download CV</a>
+                                                <a href="#contact" class="btn hire-me">Hire Me</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>SQL</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML,CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%"></div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Power Bi</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%"></div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- ---- timeline item ---- -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2021 -2025
+                                                        </h3>
+                                                        <h4 class="timeline-title">Bachelor in Information Technology</h4>
+                                                        <p class="timeline-text">Rathinam Technical Campus,Coimbatore<br>CGPA:7.61</br></p>
+                                                </div>
+                                                            <!-- ---- timeline item ---- -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2020-2021
+                                                        </h3>
+                                                        <h4 class="timeline-title">All India senior school certificate(12th grade)</h4>
+                                                        <p class="timeline-text">Velammal Vidhyalaya,CBSE,Theni<br>percentage:86</br></p>
+                                                </div>
+                                                            <!-- ---- timeline item ---- -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2018 -2019
+                                                        </h3>
+                                                        <h4 class="timeline-title">All India secondary school certificate(10th grade)</h4>
+                                                        <p class="timeline-text">Montfort school,CBSE,Idukki<br>Percentage:73</br></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- ---- timeline item ---- -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2022
+                                                        </h3>
+                                                        <h4 class="timeline-title">Internship</h4>
+                                                        <p class="timeline-text">Web Designing<br>Offered by Gateway Software Solution</br>Developed an login page during the internship</p>
+                                                </div>
+                                                            <!-- ---- timeline item ---- -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2023
+                                                        </h3>
+                                                        <h4 class="timeline-title">Additional Course</h4>
+                                                        <p class="timeline-text">Coursera Certified: Data Analytics<br>Offered by IBM </br> With 9 sub-courses</p>
+                                                </div>
+                                                            <!-- ---- timeline item ---- -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Workshop</h4>
+                                                    <p class="timeline-text">Full Stack web Development<br>NoviTech R&D private Limited</br></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <!-- ----- About section end------- -->
+            <!-- ----- service section start------- -->
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ----- service item start------- -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Frontend Developer</h4>
+                                <p>Building basic websites and web pages with front-end design HTML, css and javascript.</p>
+                            </div>
+                        </div>
+                        <!-- ----- service item end------- -->
+                        <!-- ----- service item start------- -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Python programming</h4>
+                                <p>Developing scripts, automation tools, and basic software solutions using Python.</p>
+                            </div>
+                        </div>
+                        <!-- ----- service item end------- -->
+                        <!-- ----- service item start------- -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-database"></i>
+                                </div>
+                                <h4>SQL Database Management</h4>
+                                <p>Designing and managing databases, writing queries, and optimizing data storage.</p>
+                            </div>
+                        </div>
+                        <!-- ----- service item end------- -->
+                        <!-- ----- service item start------- -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-line-chart"></i>
+                                </div>
+                                <h4>Dashboard Developer</h4>
+                                <p>My focus is on delivering tailored solutions that empower organizations to make data-driven decisions.</p>
+                            </div>
+                        </div>
+                        <!-- ----- service item end------- -->
+                        <!-- ----- service item start------- -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-file"></i>
+                                </div>
+                                <h4>Data Visualization Analyst</h4>
+                                <p>I create interactive and visually engaging dashboards using Power BI, transforming complex data into actionable insights.</p>
+                            </div>
+                        </div>
+                        <!-- ----- service item end------- -->
+                        <!-- ----- service item start------- -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>AI Data Interaction Specialist</h4>
+                                <p>I specialize in leveraging AI technologies to gather and analyze accurate data through interactive methods</p>
+                        </div>
+                        <!-- ----- service item end------- -->
+                    </div>
+                </div>
+            </section>
+            <!-- ----- service section end------- -->
+            <!-- ----- project section start------- -->
+            <section class="project section" id="project">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="project-heading padd-15">
+                            <h2>My Last Projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ----- project item start------- -->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                   <img src="image/project 1.png" alt="">
+                                   <h4>Food Ordering Website</h4> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ----- project item end------- -->
+                        <!-- ----- project item start------- -->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                   <img src="image/project 2.png" alt="">
+                                   <h4>Finanace Dashboard Using Power Bi</h4> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ----- project item end------- -->
+                        <!-- ----- project item start------- -->
+                        <div class="project-item padd-15">
+                            <div class="project-item-inner shadow-dark">
+                                <div class="project-img">
+                                   <img src="image/porject 3.png" alt="">
+                                   <h4>Rope Ambulance</h4> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ----- project item end------- -->
+                        
+
+                    </div>
+                </div>
+            </section>
+            <!-- ----- project section end------- -->
+            <!-- ----- contact section start------- -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row"></div>
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Do You Have Any Questions ? </h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                    <div class="row">
+                        <!-- ----- contact info start------- -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+91 7306134047</p>
+                        </div>
+                        <!-- ----- contact info end------- -->
+                        <!-- ----- contact info start------- -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>sujiblessy0604@gmail.com</p>
+                        </div>
+                        <!-- ----- contact info end------- -->
+                        <!-- ----- contact info start------- -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-search"></i></div>
+                            <h4>Linkedin</h4>
+                            <a href="https://www.linkedin.com/in/suji-m-8718772a8/">Suji-M(link)</a>
+                        </div>
+                        <!-- ----- contact info end------- -->
+                        <!-- ----- contact info start------- -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-user"></i></div>
+                            <h4>Github</h4>
+                            <a href="https://github.com/M-suji">Suji-M(link)</a>
+                         
+                        </div>
+                        <!-- ----- contact info end------- -->
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                    <!-- ----- contact form start------- -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" id="name" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" id="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="message" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" onclick="sendMail()" class="btn">Send Message</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- ----- contact form end------- -->
+                </div>
+            </section>
+            <!-- ----- contact section end------- -->
         </div>
+        <!-- ----- main content end------- -->
     </div>
-    <section class="education" id="education">
-        <h2 class="heading">Education</h2>
-        <div class="timeline-items">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021-2025</div>
-                    <div class="timeline-content">
-                        <h3>Bachelor of Technology in Information Technology</h3>
-                        <p>Rathinam Technical Campus,Coimbatore<br>CGPA:7.51</br> </p>
-                    </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-date">2020-2021</div>
-                    <div class="timeline-content">
-                        <h3>All India senior school certificate(12th grade)</h3>
-                        <p>Velammal Vidhyalaya,CBSE,Theni<br>percentage:86</br></p>
-                    </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                    <div class="timeline-date">2018-2019</div>
-                    <div class="timeline-content">
-                        <h3>All India secondary school certificate(10th grade)</h3>
-                        <p>Montfort school,CBSE,Idukki<br>Percentage:73</br></p>
-                    </div>
-            </div>
-    </section>
-    <section class="services" id="services">
-        <h2 class="heading">Services</h2>
-        <div class="services-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Data Analytics and Visualization</h4>
-                    <p>Creating insightful dashboards and reports using Power BI for financial tracking, business analysis, and performance metrics.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Frontend Developer</h4>
-                    <p>Building basic websites and web pages with front-end design HTML, css and javascript.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Python rogramming</h4>
-                    <p>Developing scripts, automation tools, and basic software solutions using Python.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>SQL Database Management</h4>
-                    <p>Designing and managing databases, writing queries, and optimizing data storage and retrieval.</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact Me</h2>
-        <form action="#">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
-                    <input type="email" placeholder="Email" id="email" class="item" autocomplete="off"> 
-                </div>
-                <div class="input-box">
-                    <input type="number"placeholder="Phone Number" id="phone" class="item" autocomplete="off">
-                    <input typr="text"placeholder="Subject" id="subject" class="item" autocapitalize="off">
-                </div>
-            </div>
-            <div class="input-group-2">
-                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
-                <input type="submit" value="sendMessage" onclick="sendMail()"class="btn">
-            </div>
-        </form>
+    <!-- ----- main container end------- -->
+    <!-- ----- style switcher start------- -->
+    <div class="style-switcher">
         
-
-    </section>
-    
-    <footer class="footer">
-        <div class="social">
-            <a href=" "><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/suji-m-8718772a8/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/M-suji"><i class="fa-brands fa-github"></i></a>
-                
+        <div class="day-night s-icon">
+            <i class="fas"></i>
         </div>
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#home">About Me</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            
-        </ul>
-        <p class="copyright">
-            © copyright | All Rights Reserved
-        </p>
-
-    </footer>
-    
+        
+        <h4>Theme Colors</h4>
+    </div>
+    <!-- ----- style switcher end------- -->
+    <!-- ----- js files------- -->
+    <script>
+        /*============= theme light ======================*/
+const dayNight = document.querySelector(".day-night");
+dayNight.addEventListener("click",() => {
+    dayNight.querySelector("i").classList.toggle("fa-sun");
+    dayNight.querySelector("i").classList.toggle("fa-moon");
+    document.body.classList.toggle("dark");
+})
+window.addEventListener("load",()=>{
+    if(document.body.classList.contains("dark"))
+    {
+        dayNight.querySelector("i").classList.add("fa-sun");
+    }
+    else
+    {
+        dayNight.querySelector("i").classList.add("fa-moon");
+    }
+})
+    </script>
 </body>
 </html>
